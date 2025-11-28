@@ -1,0 +1,44 @@
+<section id="home" class="hero">
+    <div class="container hero-container">
+        <div class="hero-content">
+            <p class="greeting">Hello, I'm</p>
+            <h1 class="name">John Doe</h1>
+            <h2 class="title">I build <span class="typing-text">{{ typingText }}</span></h2>
+            <p class="description">
+                A passionate Full Stack Developer crafting stunning and functional web experiences.
+                Turning ideas into reality with clean code and modern design.
+            </p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="code-block-wrapper">
+                <div class="code-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <pre><code class="language-javascript">
+const developer = {{ '{' }}
+    name: "John Doe",
+    role: "Full Stack Dev",
+    skills: [
+        "React", "Node.js",
+        "Python", "AWS"
+    ],
+    hardWorker: true,
+    quickLearner: true,
+    hireable: function() {{ '{' }}
+        return this.hardWorker && this.quickLearner;
+    {{ '}' }}
+{{ '}' }};
+                </code></pre>
+            </div>
+        </div>
+    </div>
+    <a href="#about" class="scroll-down">
+        <i class="fa-solid fa-arrow-down"></i>
+    </a>
+</section>
